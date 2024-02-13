@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.node.json" }, { "path": "./tsconfig.app.json" }],
+  "compilerOptions": {
+    // 다른 옵션들...
+    "typeRoots": ["./typings", "./node_modules/@types"]
+  }
+}
